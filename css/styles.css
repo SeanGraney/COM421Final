@@ -1,0 +1,58 @@
+/* ----- General Styles ----- */
+h1 {
+    font-size: 7em;
+    text-align: center;
+    color: #fb8727;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin: 2% auto auto auto;
+}
+
+h3 {
+    font-size: 2em;
+    color: red;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+p {
+    font-size: 2em;
+}
+
+/* ----- Class specific Syles (alphabetical) -----  */
+
+.additionalDocumentsContainer {
+    background-color: hsla(0, 0%, 86%, 0.9);
+}
+
+.additionalDocumentsContainer h2 {
+    margin: auto; 
+    text-align: center;
+}
+
+.attentionGrabContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    background-color: hsla(0,0%,86.3%,.9);
+}
+
+.attentionGrabContainer p {
+    padding-left: 2%;
+    position: relative;
+    bottom: 5px;
+}
+
+.commonViolationsContainer{
+    background-color: rgba(245, 242, 238, 0.934);
+}
+
+.commonViolationsContainer h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle {
+    margin: auto auto 3%;
+    padding-left: 45%;
+}
