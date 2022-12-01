@@ -30,6 +30,11 @@ p {
     text-align: center;
 }
 
+.additionalDocumentsContainer h3{
+    margin:auto;
+    text-align: center;
+}
+
 .attentionGrabContainer {
     display: flex;
     justify-content: flex-start;
@@ -55,4 +60,11 @@ p {
 .subtitle {
     margin: auto auto 3%;
     padding-left: 45%;
+}
+
+iframe {
+    background-color: #777;
+    display:block;
+    border-style:none;
+    margin: 0 auto;
 }
