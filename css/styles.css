@@ -8,6 +8,14 @@ h1 {
     margin: 2% auto auto auto;
 }
 
+h2 {
+    font-size:  3em;
+    padding-top: 2%;
+    color: #fb8727;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 h3 {
     font-size: 2em;
     color: red;
@@ -33,6 +41,7 @@ p {
 .additionalDocumentsContainer h3{
     margin:auto;
     text-align: center;
+    margin: 2% auto 0 auto;
 }
 
 .attentionGrabContainer {
@@ -48,8 +57,28 @@ p {
     bottom: 5px;
 }
 
+.appealContainer{
+    background-color: hsla(0, 0%, 86%, 0.9);
+    margin: 0;
+}
+
+.appealContainer h2{
+    text-align: center;
+    margin: 0;
+}
+
+.appealContainer ol{
+    font-size: 2em;
+    position: relative;
+    left: 41%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+
 .commonViolationsContainer{
     background-color: rgba(245, 242, 238, 0.934);
+    padding-bottom: 1%;
+    margin: auto;
 }
 
 .commonViolationsContainer h2 {
@@ -57,9 +86,30 @@ p {
     text-align: center;
 }
 
+.commonViolationsContainer p {
+    text-align: center;
+    position: relative;
+}
+
+.resourceContainer {
+    background-color: rgba(245, 242, 238, 0.934);  
+
+}
+
+.resourceContainer h2{
+    text-align: center;
+    margin: 0;
+}
+
 .subtitle {
     margin: auto auto 3%;
     padding-left: 45%;
+}
+
+.titleContainer {
+    background-color: rgba(245, 242, 238, 0.934);
+    padding-bottom: 1px;
+    padding-top: 1px;
 }
 
 iframe {
