@@ -74,6 +74,7 @@ li {
 .appealContainer{
     background-color: hsla(0, 0%, 86%, 0.9);
     margin: 0;
+    word-wrap:normal
 }
 
 .appealContainer h2{
@@ -81,10 +82,22 @@ li {
     margin: 0;
 }
 
-.appealContainer ol{
-    font-size: 2em;
+.appealContainer p{
+    text-align: center;
+    margin: 0;
+}
+
+.appealContainer ul{
+    font-size: 32px;
     position: relative;
-    left: 41%;
+    left: 35%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+.appealContainer ol{
+    font-size: 32px;
+    left:2%;
+    position: relative;
     margin-bottom: 0;
     padding-bottom: 2%;
 }
