@@ -1,6 +1,11 @@
 /* ----- General Styles ----- */
+
+body {
+    overflow-x: hidden;
+}
+
 h1 {
-    font-size: 7em;
+    font-size: 5em;
     font-family: 'Bevan', cursive;
     text-align: center;
     color: #fb8727;
@@ -19,15 +24,20 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Bevan', cursive;
     color: red;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
 
+h4 {
+    font-size: 1em;
+    font-family: 'Exo', sans-serif;
+}
+
 p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Exo', sans-serif;
 }
 
@@ -62,6 +72,7 @@ li {
 .attentionGrabContainer {
     display: flex;
     justify-content: flex-start;
+    padding-left: 10%;
     background-color: hsla(0,0%,86.3%,.9);
 }
 
@@ -88,18 +99,20 @@ li {
 }
 
 .appealContainer ul{
-    font-size: 32px;
     position: relative;
-    left: 35%;
+    left: 25%;
     margin-bottom: 0;
     padding-bottom: 2%;
 }
 .appealContainer ol{
-    font-size: 32px;
     left:2%;
     position: relative;
     margin-bottom: 0;
     padding-bottom: 2%;
+}
+
+.appealContainer li, a{
+    font-size: 1.2em;
 }
 
 .commonViolationsContainer{
