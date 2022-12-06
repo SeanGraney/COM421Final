@@ -105,6 +105,13 @@ li {
     position: relative;
 }
 
+.commonViolationContainer {
+    background-color: rgba(245, 242, 238, 0.934);
+    padding-bottom: 1%;
+    margin: auto;
+    border-top: 5px #777 inset  ;
+    width: 1200px;
+}
 .resourceContainer {
     background-color: rgba(245, 242, 238, 0.934);
 }
